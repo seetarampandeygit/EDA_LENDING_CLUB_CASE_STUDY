@@ -104,7 +104,7 @@
 
 - This project was inspired by ML-AI couse at UpGrad and IIIT-B
 - References: UpGrad and IIIT-B
-- This project was based on [Exploratory Data Analysis]([https://www.example.com](https://learn.upgrad.com/course/5811/segment/53276/316330/957989/4783435).
+- This project was based on [Exploratory Data Analysis]([https://www.example.com](https://learn.upgrad.com/course/5811/segment/53276/316330/957989/4783435]).
 
 
 ## Contact
