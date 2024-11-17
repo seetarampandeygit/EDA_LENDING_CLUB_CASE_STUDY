@@ -51,6 +51,12 @@
 - Converting variables 'int-rate' and 'revol_util' to numeric
 
 ## Univariate Analysis
+### Numerical Variables
+- Loan Amount Distribution
+- Interest Rates
+- Revolving Utilities
+- Installments
+### Categorical Variables
 - Unique Member Check
 - Loan Term
 - Customer Grade
