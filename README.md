@@ -41,7 +41,7 @@
 - Index Range and Column's datatype
 
 ## Data Cleaning
-- NUll values processing
+- Null values processing
 
 ## Data Filtering
 - Data Duplicacy Check
