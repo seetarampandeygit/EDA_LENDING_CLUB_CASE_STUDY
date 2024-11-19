@@ -85,6 +85,8 @@
 - dti_buck vs loan status
 
 ## Conclusions
+- Institution Loss: Typically, around 14% to 15% of members default, which is quite significant.
+  
 - Loan Term: The organization offers a 36-month loan repayment period for approximately 78% of its clients. However, customers with a 60-month loan repayment term are generally more prone to default. This was further confirmed when analyzed alongside the length of employment. Regardless of how long a customer has been employed, those with a 60-month tenure have a greater likelihood of defaulting. Therefore company should have a stringent policy to minimize lending for 60 months tenure.
 
 - Customer Grade: Most customers fall into grades A or B. However, those in grades G, F, and E have a higher probability of defaulting. Therefore, the company should refrain from extending loans to customers in grades G, F, and E.
@@ -103,9 +105,7 @@
 
 - Institution Research: The lending institution has failed to consider crucial factors before granting loans. It appears that there is almost no correlation between aspects such as bankruptcy records and loan amounts, debt-to-income ratios and loan amounts, delinquency records and loan amounts, and so forth.
 
-- Institution Loss: Typically, around 14% to 15% of members default, which is quite significant.
-
-
+  
 ## Acknowledgements
 
 - This project was inspired by ML-AI couse at UpGrad and IIIT-B
@@ -114,4 +114,4 @@
 
 
 ## Contact
-Created by [@seetarampandeygit] - feel free to contact me!
+Created by [@seetarampandeygit]  - feel free to contact me!
