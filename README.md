@@ -41,7 +41,7 @@
 - Index Range and Column's datatype
 
 ## Data Cleaning
-- NUll values processing
+- Null values processing
 
 ## Data Filtering
 - Data Duplicacy Check
@@ -51,6 +51,12 @@
 - Converting variables 'int-rate' and 'revol_util' to numeric
 
 ## Univariate Analysis
+### Numerical Variables
+- Loan Amount Distribution
+- Interest Rates
+- Revolving Utilities
+- Installments
+### Categorical Variables
 - Unique Member Check
 - Loan Term
 - Customer Grade
@@ -68,15 +74,15 @@
 - House Ownership Vs Loan Status
 
 ## Derived Metrics
-- Adding a new column "emp_len&Term" to loan dataset and then doing anlayis of emp_len&Term vs loan status
-- Adding a new column "purpose&emp_len" to loan dataset and then doing anlayis of purpose&emp_len vs loan status
-- Create new column "credit_enquiry" ('Yes' if 'inq_last_6mths' >0 else 'No') to loan dataset and then doing anlayis of credit_enquiry vs loan status
-- Create new column "public_record" ('Yes' if 'pub_rec' >0 else 'No') to loan dataset and then doing anlayis of public_record vs loan status
-- Create new column "bankruptcy" ('Yes' if 'pub_rec_bankruptcies' >0 else 'No') to loan dataset and then doing anlayis of bankruptcy vs loan status
-- Create new column "delinq_record" ('Yes' if 'delinq_2yrs' >0 else 'No') to loan dataset and then doing anlayis of delinq_record vs loan status
-- Create new column "perc_util" (with buckets <50%, <75%, <90%, >90% on column 'revol_util') to loan dataset and then doing anlayis of perc_util vs loan status
-- Create new column "interest" (with buckets <7%, <10%, <12%, >15% on column 'int-rate') and then doing anlayis of interest vs loan status
-- Create new column "dti_buck" (with buckets <10%, <15%, <20%, >25% on column 'dti') and then doing anlayis of dti_buck vs loan status
+- emp_len&Term vs loan status
+- purpose&emp_len vs loan status
+- credit_enquiry vs loan status
+- public_record vs loan status
+- bankruptcy vs loan status
+- delinq_record vs loan status
+- perc_util vs loan status
+- interest vs loan status
+- dti_buck vs loan status
 
 ## Conclusions
 - Loan Term: The organization offers a 36-month loan repayment period for approximately 78% of its clients. However, customers with a 60-month loan repayment term are generally more prone to default. This was further confirmed when analyzed alongside the length of employment. Regardless of how long a customer has been employed, those with a 60-month tenure have a greater likelihood of defaulting. Therefore company should have a stringent policy to minimize lending for 60 months tenure.
